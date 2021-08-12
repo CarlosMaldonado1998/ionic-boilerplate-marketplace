@@ -23,18 +23,6 @@ export class AppComponent {
       title: 'Detail',
       url: '/detail',
     },
-    {
-      title: 'Facebook',
-      url: '/facebook',
-    },
-    {
-      title: 'Pinterest',
-      url: '/pinterest',
-    },
-    {
-      title: 'Table',
-      url: '/table',
-    },
   ];
 
   constructor(
