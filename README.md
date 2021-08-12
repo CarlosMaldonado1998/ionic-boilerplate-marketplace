@@ -1,53 +1,15 @@
-# Ionic 4 Skeleton Loader component
+# Ionic Boilerplate Marketplace
 
-[Demo](https://mrhieu.github.io/ionic-skeleton-loader-4)
+Para el desarrollo de esta práctica se ha utilizado el plugin de Ionic Skeleton Component el cual se encuentra disponible en el siguiente enlace. 
 
+https://market.ionicframework.com/plugins/ionic-skeleton-loader-4
 
-## Setup
+Este plugin ha sido escrito con Ionic V4, este plugin nos permite mostrar una visualización de como va quedar nuestros componentes dependiendo de la aplicación a crear, se tienen diseños para listas, tablas, imagenes. Adicionalmente esta disponible el diseño en carga de redes como facebook y Pinterest. 
 
-After clone or download this project.
+Para el desarrollo hemos usado el skeleton base de imagenes junto con el de lista y detalle que nos proporciona este plugin. 
 
-Install Ionic CLI
+Este esta realizado con Angular ionic. 
 
-```
-$ npm install -g ionic
-```
-
-Install dependencies
-
-```
-$ cd <project>
-$ npm install
-```
-
-Run the app on Localhost
-
-```
-$ ionic serve
-```
-
-See more at [Get started with Ionic](https://ionicframework.com/getting-started/)
-
-## skeleton-element
-`<skeleton-element>` is the main building block to build more complex skeleton-style loading screen
-
-### Usage
-
-```
-<skeleton-element height="50px" width="50px" rounded="true"></skeleton-element>
-```
-
-You can add CSS classes or inline CSS as normal HTML element
-
-```
-<skeleton-element class="pin-image" height="50px" width="50px" rounded="true" style="margin-bottom: 16px"></skeleton-element>
-```
-
-### Available attributes
-
-- @Input() width: string = '100%'; // can be px or %
-- @Input() height: string = '16px'; // can be px or %
-- @Input() borderRadius: string = '0'; // set border-radius
-- @Input() rounded: boolean = false; // set border-radius to 999em to make rounded block
-- @Input() noAnimated: boolean = false; // disable animation effect
-- @Input() inline: boolean = false; // set display to inline-block
+![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-boilerplate-marketplace/master/Images/skeleton.png)
+![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-boilerplate-marketplace/master/Images/list.png)
+![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-boilerplate-marketplace/master/Images/detail.png)
